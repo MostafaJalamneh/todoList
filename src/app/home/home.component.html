@@ -1,0 +1,23 @@
+<div class="todo">
+  <div class="todoHeaderDiv">
+    <h1 class="todoHeader">My Todo List</h1>
+    <img src="../../assets/img/logo.png" class="logo">
+  </div>
+  <div class="todoList">
+    <ul *ngFor="let work of todoList; let i = index">
+      <div class="wokDiv">
+      <li>{{ work }}</li>
+      <button (click)="deleteWork(i)" class="doneButton">Done</button>
+    </div>
+    </ul>
+  </div>
+  <div class="addWorkDiv">
+    <input #todo type="text" placeholder=" Type your works here"/>
+    <button (click)="addWork(todo.value)" class="addButton">Add</button>
+  </div>
+<div class="imageDiv">
+  <img src="../../assets/img/time.png" class="timeImage">
+</div>
+</div>
+<router-outlet></router-outlet>
+

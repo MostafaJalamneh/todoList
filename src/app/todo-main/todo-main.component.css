@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.imageDiv {
+  position: absolute;
+  left: 60%;
+  top: 50%;
+}
+
+.timeImage {
+  width: 520px;
+  height: 320px;
+}
+
+.contentDiv {
+  width: 270px;
+}
+
+.paregraphDiv {
+  width: 500px;
+}
+
+h1 {
+  color: rgb(27, 87, 218);
+  padding-bottom: 10px;
+}
+
+.pareg {
+  font-size: 20px;
+  padding: 9px;
+}
+
+.container {
+  margin-top: 82px;
+  position: absolute;
+  left: 20%;
+}
+
+.showButton{
+    padding: 5px;
+    margin-top: 25px;
+    position: absolute;
+    right: 180px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: teal;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
